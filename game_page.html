@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess The Word</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="loginpage.js"></script>
+</head>
+<body class="body_background">
+    <h3 id="name1"></h3><span id="score1"></span>
+    <h3 id="name2"></h3><span id="score2"></span>
+
+    <div class="container">
+       <center>
+        <h1 class="page-header">MATH GAME</h1>
+        <form >
+            <h2 id="question_turn"></h2>
+            <h2 id="answer_turn"></h2>
+            <div id="output" class="col-lg-6"></div>
+            <br><br>
+            
+            <div>
+                <h1 style="color: rgb(247, 247, 247);">Number 1</h1>
+                <input type="text" class="form-control" id="number1" placeholder="Number 1">
+                <br>
+                <h1 style="color: rgb(247, 247, 247);">Number 2</h1>
+                <input type="text" class="form-control" id="number2" placeholder="Number 2">
+                <br><br>
+                <button style="width: 100px;" class="btn btn-success" onclick="sendto()">Send</button>
+            
+            </div>
+        </form>
+        
+
+       </center>
+       
+
+    </div>
+   
+</body>
+</html>
